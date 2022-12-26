@@ -137,4 +137,7 @@ h1.temp {
     justify-content: space-evenly;
     flex-direction: column;
   }
+  button:hover {
+    background: #ffffff2b;
+  }
 }
