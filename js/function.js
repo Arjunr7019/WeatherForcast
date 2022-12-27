@@ -50,6 +50,12 @@ let weather = {
       }else if(main === "Rain"){
         document.body.style.backgroundImage =
           "url('img/rainy.jpg')";
+      }else if(main === "Mist"){
+        document.body.style.backgroundImage =
+          "url('img/mist.jpg')";
+      }else if(main === "Snow"){
+        document.body.style.backgroundImage =
+          "url('img/snow.png')";
       }
     },
     search: function () {
